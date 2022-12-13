@@ -1,3 +1,4 @@
+/// Implements a simple Contact entity. (Not used in this app.)
 class Contact {
   final String name;
   final String email;

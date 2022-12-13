@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
+import 'package:flutter_form_builder_example/home_page.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:intl/intl.dart';
 
 void main() => runApp(const MyApp());
 
+/// The top-level widget. By default, displays [CompleteForm] as the home screen. You can change it to [HomePage] to see the other example widgets.
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -18,6 +20,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+/// Provides examples of many form field types.
 class CompleteForm extends StatefulWidget {
   const CompleteForm({Key? key}) : super(key: key);
 

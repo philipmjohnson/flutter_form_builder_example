@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:widget_with_codeview/widget_with_codeview.dart';
 
+/// Provides a stateful widget indicating the HomePage subpage to display.
 class CodePage extends StatefulWidget {
   final String title;
   final Widget child;

@@ -2,10 +2,10 @@ import 'sources/custom_fields.dart';
 import 'sources/signup_form.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'code_page.dart';
 import 'sources/complete_form.dart';
 
+/// Provides navigation to three different screens illustrating different forms: [CodePage], [CustomFields], and [SignupForm].
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 

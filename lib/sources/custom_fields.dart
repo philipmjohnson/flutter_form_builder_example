@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 
+/// Implements various custom fields: [FormBuilderField], [CupertinoTextField], [CheckboxListTile], and [CupertinoFormRow]
 class CustomFields extends StatefulWidget {
   const CustomFields({Key? key}) : super(key: key);
 

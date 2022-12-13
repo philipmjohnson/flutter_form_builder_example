@@ -3,6 +3,7 @@ import 'package:flutter_form_builder/flutter_form_builder.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:intl/intl.dart';
 
+/// Another subset of the CompleteForm shown in the default home page.
 class CompleteForm extends StatefulWidget {
   const CompleteForm({Key? key}) : super(key: key);
 
